@@ -32,7 +32,7 @@ for i in t:
 
 #(string iteration)
 print("\nString Iteration")
-s = "Burhan"
+s = "khadija"
 for i in s:
     print(i)
 
@@ -43,7 +43,7 @@ for i in range(1, 6):
     print(f"The square of {i} is {square}")
 
 
-list = ["Anas","Waleed","Zain"]
+list = ["khadija","fatima","eman"]
 for i in range(len(list)):
     #print(i)
     print(f"Index {i} :  " , list[i])
@@ -56,7 +56,7 @@ for i in range(len(list)):
 food = ["Pasta","Pizza","Burger","Chinese","Thai"]
 
 for i in food:
-    if i == "Pizza" or i == "Chinese":
+    if i == "burger" or i == "Chinese":
       continue
     print(i)
 
@@ -67,7 +67,7 @@ for i in range(1, 6):
         break
     print(i)
 
-for letter in "burhanabid768@gmail.com":
+for letter in "khadijamunir768@gmail.com":
     if letter == "@" or letter == "a" or letter == ".":
         break
     print(letter)
@@ -81,7 +81,7 @@ for letter in "burhanabid768@gmail.com":
 def my_function(food):
  for x in food:
   print(x)
-fruits = ["apple", "banana", "cherry","mango","peach","plum"]
+fruits = ["apple", "banana","mango","peach","plum"]
 my_function(fruits)
 
 
@@ -103,7 +103,7 @@ print(result)
 def assign_grade(score):
     if score > 90:
         return "Grade A"
-    elif score > 75:
+    elif score > 85:
         return "Grade B"
     elif score > 65:
         return "Grade C"
@@ -136,8 +136,8 @@ class Person:
     def greet(self):
         print(f"Hello, my name is {self.name} and I am {self.age} years old.")
 
-person1 = Person("Burhan Abid Butt", 21)
-person2 = Person("Zain ul Abideen Dar", 20)
+person1 = Person("khadijamunir", 21)
+person2 = Person("fatima", 20)
 
 person1.greet()
 person2.greet()
